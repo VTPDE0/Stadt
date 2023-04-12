@@ -24,10 +24,8 @@ public class Haus {
         if (neuHoehe >= 0.1) {
             hoehe = neuHoehe;
             System.out.println("Die Haushoehe ist " + hoehe);
-        }
-        else
-        {
-            hoehe=neuHoehe;
+        } else {
+            hoehe = neuHoehe;
             System.err.println("Die Haushoehe ist falsch");
         }
     }
